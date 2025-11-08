@@ -9,7 +9,7 @@ let musicPlaying = false;
 const story = {
   start: {
     text: "You wake up in a mysterious forest. The air is thick with mist, and two paths lie ahead.",
-    image: "assets/images/forest.jpg",
+    image: "images/forest.jpg",
     options: [
       { text: "Take the left path", next: "leftPath" },
       { text: "Take the right path", next: "rightPath" }
@@ -17,7 +17,7 @@ const story = {
   },
   leftPath: {
     text: "You follow the left path and find an old castle in ruins. A faint light flickers inside.",
-    image: "assets/images/castle.jpg",
+    image: "images/castle.jpg",
     options: [
       { text: "Enter the castle", next: "castle" },
       { text: "Return to the forest", next: "start" }
@@ -25,7 +25,7 @@ const story = {
   },
   rightPath: {
     text: "You take the right path and encounter a sleeping dragon guarding a treasure chest.",
-    image: "assets/images/dragon.jpg",
+    image: "images/dragon.jpg",
     options: [
       { text: "Try to sneak past", next: "sneak" },
       { text: "Attack the dragon", next: "fight" }
@@ -33,17 +33,17 @@ const story = {
   },
   castle: {
     text: "Inside the castle, you find a mysterious book glowing on a pedestal. The story continues...",
-    image: "assets/images/castle.jpg",
+    image: "images/castle.jpg",
     options: [{ text: "Restart", next: "start" }]
   },
   sneak: {
     text: "You successfully sneak past the dragon and open the chest — inside is a map of the world!",
-    image: "assets/images/dragon.jpg",
+    image: "images/dragon.jpg",
     options: [{ text: "Restart", next: "start" }]
   },
   fight: {
     text: "The dragon awakens! You fight bravely, but the flames engulf you. Your adventure ends here.",
-    image: "assets/images/dragon.jpg",
+    image: "images/dragon.jpg",
     options: [{ text: "Try again", next: "start" }]
   }
 };
