@@ -9,19 +9,6 @@ An interactive "choose-your-own-adventure" web application built using **HTML**,
 - Responsive, animated interface
 - Easy restart and navigation
 
-## Folder Structure
-interactive-storytelling/
-├── public/
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-├── assets/
-│ ├── images/
-│ ├── audio/
-├── server.js
-└── README.md
-
-
 ## How to Run Locally
 
 ### 1. Install Node.js and Express:
