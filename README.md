@@ -12,18 +12,16 @@ An interactive "choose-your-own-adventure" web application built using **HTML**,
 ## How to Run Locally
 
 ### 1. Install Node.js and Express:
-   ```bash```
-   npm install express
+`npm install express`
 
 ### 2. Start the server:
-node server.js
+`node server.js`
 
 ### 3. Open your browser and go to:
-http://localhost:3000
+`http://localhost:3000`
 
+## Live Demo
+`https://ishita282.github.io/storyTelling/`
 
-## Customization
-
-Modify the story object in script.js to create your own adventure.
-
-Add background images or audio for immersion.
+## GitHub Repo
+`https://github.com/Ishita282/storyTelling.git`
